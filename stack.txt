@@ -1,0 +1,23 @@
+SelectStatement(MappedStatement).setSql(Sql) line: 291
+MappedStatementConfig.applyInlineParameterMap(MappedStatement, String) line: 200
+MappedStatementConfig.setSqlForStatement(MappedStatement, Sql) line: 173
+MappedStatementConfig.<init>(SqlMapConfiguration, String, MappedStatement, SqlSource, String, Class, String, String[], Class, Class[], String, String, Integer, boolean, Integer, Integer, String) line: 80
+SqlMapConfiguration.newMappedStatementConfig(String, MappedStatement, SqlSource, String, Class, String, String[], Class, Class[], String, Integer, boolean, Integer, String, String) line: 159
+SqlStatementParser.parseGeneralStatement(Node, MappedStatement) line: 73
+SqlMapParser$21.process(Node) line: 362
+NodeletParser.processNodelet(Node, String) line: 121
+NodeletParser.process(Node, NodeletParser$Path) line: 84
+NodeletParser.process(Node, NodeletParser$Path) line: 102
+NodeletParser.parse(Node) line: 72
+NodeletParser.parse(InputStream) line: 60
+SqlMapParser.parse(InputStream) line: 44
+SqlMapConfigParser$10.process(Node) line: 257
+NodeletParser.processNodelet(Node, String) line: 121
+NodeletParser.process(Node, NodeletParser$Path) line: 84
+NodeletParser.process(Node, NodeletParser$Path) line: 102
+NodeletParser.parse(Node) line: 72
+NodeletParser.parse(InputStream) line: 60
+SqlMapConfigParser.parse(InputStream) line: 62
+SqlMapClientBuilder.buildSqlMapClient(InputStream) line: 90
+SqlMapClientFactoryBean.buildSqlMapClient(Resource, Properties) line: 326
+SqlMapClientFactoryBean.afterPropertiesSet() line: 280
